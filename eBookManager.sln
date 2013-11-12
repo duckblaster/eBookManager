@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBookManager", "eBookManager\eBookManager.csproj", "{621A2A9D-58D6-41FD-A09E-BE59CE0DCCEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBookManagerGTK", "eBookManagerGTK\eBookManagerGTK.csproj", "{F2DFB9CF-6873-4742-8C35-C2A6D5680005}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBookManagerAndroid", "eBookManagerAndroid\eBookManagerAndroid.csproj", "{0F5CD6B0-3646-47A9-AF2C-6CD8FF01FDA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBookManagerLib", "eBookManagerLib\eBookManagerLib.csproj", "{FE78FE03-F420-4EF1-AA05-39CA0AC8A373}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F5CD6B0-3646-47A9-AF2C-6CD8FF01FDA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F5CD6B0-3646-47A9-AF2C-6CD8FF01FDA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F5CD6B0-3646-47A9-AF2C-6CD8FF01FDA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F5CD6B0-3646-47A9-AF2C-6CD8FF01FDA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{621A2A9D-58D6-41FD-A09E-BE59CE0DCCEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{621A2A9D-58D6-41FD-A09E-BE59CE0DCCEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{621A2A9D-58D6-41FD-A09E-BE59CE0DCCEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{621A2A9D-58D6-41FD-A09E-BE59CE0DCCEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2DFB9CF-6873-4742-8C35-C2A6D5680005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2DFB9CF-6873-4742-8C35-C2A6D5680005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2DFB9CF-6873-4742-8C35-C2A6D5680005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2DFB9CF-6873-4742-8C35-C2A6D5680005}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE78FE03-F420-4EF1-AA05-39CA0AC8A373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE78FE03-F420-4EF1-AA05-39CA0AC8A373}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE78FE03-F420-4EF1-AA05-39CA0AC8A373}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE78FE03-F420-4EF1-AA05-39CA0AC8A373}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = eBookManager\eBookManager.csproj
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal

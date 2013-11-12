@@ -1,0 +1,47 @@
+﻿<Properties GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="eBookManagerLib\Extensions\INotifyPropertyChanged.cs">
+    <Files>
+      <File FileName="eBookManagerLib\Data\Interfaces\Author.cs" Line="4" Column="20" />
+      <File FileName="eBookManagerLib\Data\Interfaces\Book.cs" Line="4" Column="21" />
+      <File FileName="eBookManagerLib\Data\Interfaces\Chapter.cs" Line="4" Column="20" />
+      <File FileName="eBookManagerLib\Data\Interfaces\ChapterVersion.cs" Line="61" Column="62" />
+      <File FileName="eBookManagerLib\Data\Interfaces\Library.cs" Line="4" Column="20" />
+      <File FileName="eBookManagerLib\Data\Scrapers\FanfictionNet.cs" Line="1" Column="1" />
+      <File FileName="eBookManagerLib\Data\Scrapers\HPFanficArchive.cs" Line="1" Column="1" />
+      <File FileName="eBookManagerLib\Data\Scrapers\Ficwad.cs" Line="1" Column="1" />
+      <File FileName="eBookManagerLib\Data\Storage\Local.cs" Line="1" Column="1" />
+      <File FileName="eBookManagerLib\Data\Storage\FileTree\ChapterVersion.cs" Line="20" Column="9" />
+      <File FileName="eBookManagerLib\Data\Storage\FileTree\Chapter.cs" Line="9" Column="49" />
+      <File FileName="eBookManagerLib\Extensions\INotifyPropertyChanged.cs" Line="7" Column="100" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="eBookManager" expanded="True" />
+          <Node name="eBookManagerLib" expanded="True" selected="True">
+            <Node name="References" expanded="True" />
+            <Node name="Data" expanded="True">
+              <Node name="Interfaces" expanded="True" />
+              <Node name="Storage" expanded="True">
+                <Node name="FileTree" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Extensions" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.eBookManagerAndroid MonoForAntroid.PreferredDevice="4.65in 720p (Galaxy Nexus)" />
+</Properties>

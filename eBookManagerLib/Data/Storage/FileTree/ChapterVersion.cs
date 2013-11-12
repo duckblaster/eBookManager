@@ -12,9 +12,7 @@ namespace eBookManagerLib.Data.Storage.FileTree {
             _contentLoaded = true;
         }
 
-        public override void SetContent(string content) {
-            _contentLoaded = true;
-            _content = content;
+        public override void SaveContent() {
             File.WriteAllText(this.FileTreeGetPath(), _content);
         }
     }
