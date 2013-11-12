@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>12.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FE78FE03-F420-4EF1-AA05-39CA0AC8A373}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>eBookManagerLib</RootNamespace>
+    <AssemblyName>eBookManagerLib</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Data\Interfaces\Author.cs" />
+    <Compile Include="Data\Interfaces\Book.cs" />
+    <Compile Include="Data\Interfaces\Chapter.cs" />
+    <Compile Include="Data\Interfaces\ChapterVersion.cs" />
+    <Compile Include="Data\Interfaces\Library.cs" />
+    <Compile Include="Data\Scrapers\FanfictionNet.cs" />
+    <Compile Include="Data\Scrapers\HPFanficArchive.cs" />
+    <Compile Include="Data\Scrapers\Ficwad.cs" />
+    <Compile Include="Data\Storage\Local.cs" />
+    <Compile Include="Data\Storage\FileTree\ChapterVersion.cs" />
+    <Compile Include="Data\Storage\FileTree\Chapter.cs" />
+    <Compile Include="Data\Storage\FileTree\Extentions.cs" />
+    <Compile Include="Extentions\INotifyPropertyChanged.cs" />
+    <Compile Include="Properties\Annotations.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Data\" />
+    <Folder Include="Data\Interfaces\" />
+    <Folder Include="Data\Scrapers\" />
+    <Folder Include="Data\Storage\" />
+    <Folder Include="Data\Storage\FileTree\" />
+    <Folder Include="Data\Storage\SQLite\" />
+    <Folder Include="Extentions\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\eBookManager\Author.cs">
+      <Link>Author.cs</Link>
+    </None>
+    <None Include="..\eBookManager\Book.cs">
+      <Link>Book.cs</Link>
+    </None>
+    <None Include="..\eBookManager\Chapter.cs">
+      <Link>Chapter.cs</Link>
+    </None>
+    <None Include="..\eBookManager\Library.cs">
+      <Link>Library.cs</Link>
+    </None>
+    <None Include="..\eBookManager\ChapterVersion.cs">
+      <Link>ChapterVersion.cs</Link>
+    </None>
+  </ItemGroup>
+</Project>
