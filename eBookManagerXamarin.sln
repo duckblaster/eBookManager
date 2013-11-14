@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBookManagerGTK", "eBookManagerGTK\eBookManagerGTK.csproj", "{F2DFB9CF-6873-4742-8C35-C2A6D5680005}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBookManagerAndroid", "eBookManagerAndroid\eBookManagerAndroid.csproj", "{0F5CD6B0-3646-47A9-AF2C-6CD8FF01FDA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBookManagerLib", "eBookManagerLib\eBookManagerLib.csproj", "{FE78FE03-F420-4EF1-AA05-39CA0AC8A373}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Community.CsharpSqlite", "Community.CsharpSqlite\Community.CsharpSqlite.csproj", "{F1653F20-D47D-4F29-8C55-3C835542AF5F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F5CD6B0-3646-47A9-AF2C-6CD8FF01FDA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F5CD6B0-3646-47A9-AF2C-6CD8FF01FDA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F5CD6B0-3646-47A9-AF2C-6CD8FF01FDA2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0F5CD6B0-3646-47A9-AF2C-6CD8FF01FDA2}.Debug|x86.Build.0 = Debug|Any CPU
+		{0F5CD6B0-3646-47A9-AF2C-6CD8FF01FDA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F5CD6B0-3646-47A9-AF2C-6CD8FF01FDA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F5CD6B0-3646-47A9-AF2C-6CD8FF01FDA2}.Release|x86.ActiveCfg = Release|Any CPU
+		{0F5CD6B0-3646-47A9-AF2C-6CD8FF01FDA2}.Release|x86.Build.0 = Release|Any CPU
+		{F1653F20-D47D-4F29-8C55-3C835542AF5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1653F20-D47D-4F29-8C55-3C835542AF5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1653F20-D47D-4F29-8C55-3C835542AF5F}.Debug|x86.ActiveCfg = Debug|x86
+		{F1653F20-D47D-4F29-8C55-3C835542AF5F}.Debug|x86.Build.0 = Debug|x86
+		{F1653F20-D47D-4F29-8C55-3C835542AF5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1653F20-D47D-4F29-8C55-3C835542AF5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1653F20-D47D-4F29-8C55-3C835542AF5F}.Release|x86.ActiveCfg = Release|x86
+		{F1653F20-D47D-4F29-8C55-3C835542AF5F}.Release|x86.Build.0 = Release|x86
+		{F2DFB9CF-6873-4742-8C35-C2A6D5680005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2DFB9CF-6873-4742-8C35-C2A6D5680005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2DFB9CF-6873-4742-8C35-C2A6D5680005}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F2DFB9CF-6873-4742-8C35-C2A6D5680005}.Debug|x86.Build.0 = Debug|Any CPU
+		{F2DFB9CF-6873-4742-8C35-C2A6D5680005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2DFB9CF-6873-4742-8C35-C2A6D5680005}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2DFB9CF-6873-4742-8C35-C2A6D5680005}.Release|x86.ActiveCfg = Release|Any CPU
+		{F2DFB9CF-6873-4742-8C35-C2A6D5680005}.Release|x86.Build.0 = Release|Any CPU
+		{FE78FE03-F420-4EF1-AA05-39CA0AC8A373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE78FE03-F420-4EF1-AA05-39CA0AC8A373}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE78FE03-F420-4EF1-AA05-39CA0AC8A373}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FE78FE03-F420-4EF1-AA05-39CA0AC8A373}.Debug|x86.Build.0 = Debug|Any CPU
+		{FE78FE03-F420-4EF1-AA05-39CA0AC8A373}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE78FE03-F420-4EF1-AA05-39CA0AC8A373}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE78FE03-F420-4EF1-AA05-39CA0AC8A373}.Release|x86.ActiveCfg = Release|Any CPU
+		{FE78FE03-F420-4EF1-AA05-39CA0AC8A373}.Release|x86.Build.0 = Release|Any CPU
+		{621A2A9D-58D6-41FD-A09E-BE59CE0DCCEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{621A2A9D-58D6-41FD-A09E-BE59CE0DCCEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{621A2A9D-58D6-41FD-A09E-BE59CE0DCCEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{621A2A9D-58D6-41FD-A09E-BE59CE0DCCEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = eBookManagerGTK\eBookManagerGTK.csproj
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

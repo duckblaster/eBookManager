@@ -1,8 +1,6 @@
-using System;
-
 namespace eBookManagerLib.Data.Interfaces {
-    public abstract class Author {
-        public Author() {
+    public abstract class Author : StorableItem {
+        protected Author() {
         }
     }
 }

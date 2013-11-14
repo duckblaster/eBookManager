@@ -3,8 +3,6 @@ using System.ComponentModel;
 using System.IO;
 using System.Runtime.CompilerServices;
 
-using eBookManager.Annotations;
-
 namespace eBookManager {
     public class ChapterVersion : INotifyPropertyChanged {
         private string _contents;

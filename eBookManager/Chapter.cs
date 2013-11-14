@@ -1,9 +1,6 @@
 ﻿using System.Collections.ObjectModel;
 using System.ComponentModel;
-using System.ComponentModel.DataAnnotations;
 using System.Runtime.CompilerServices;
-
-using eBookManager.Annotations;
 
 namespace eBookManager {
     public class Chapter : INotifyPropertyChanged {

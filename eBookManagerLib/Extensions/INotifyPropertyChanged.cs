@@ -1,4 +1,3 @@
-using System;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Collections.Generic;
@@ -12,7 +11,7 @@ namespace eBookManagerLib {
                 return;
             }
 
-            List<string> dependentProperties = PropertyDependecyMap[depends];
+            var dependentProperties = PropertyDependecyMap[depends];
 
             if (dependentProperties == null) {
                 dependentProperties = new List<string>();
@@ -34,6 +33,18 @@ namespace eBookManagerLib {
             field = value;
             OnPropertyChanged(oldValue, value, propertyName);
         }
+
+        protected delegate void OnSetPropertyAction<in T>(T oldValue, T newValue);
+        protected virtual void SetProperty<T>(ref T field, T value, OnSetPropertyAction<T> onSetAction, [CallerMemberName] string propertyName = null) {
+            T oldValue = field;
+            if(Equals(oldValue, value)) {
+                return;
+            }
+            field = value;
+            onSetAction(oldValue, value);
+            OnPropertyChanged(oldValue, value, propertyName);
+        }
+
 
         protected virtual void OnPropertyChanged(object oldValue, object newValue, [CallerMemberName] string propertyName = null) {
             PropertyChangedEventHandler handler = PropertyChanged;
